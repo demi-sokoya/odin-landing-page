@@ -64,6 +64,14 @@ body {
 
 }
 
+/* Information Section styling */
+.info-title { 
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 
 /* Link Styling */
 ul {
