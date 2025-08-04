@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+* {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    padding: 0;
 }
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
 
 .header {
     display: flex;
@@ -11,9 +18,54 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 15%;
+    font-weight: 600;
 }
 
+
+/* Hero Section Styling */
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 75px 15%;
+    gap: 80px;
+}
+
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    padding: 8px 16px;
+    margin-top: 12px;
+}
+
+.hero-image {
+    background-color: grey;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+
+}
+
+
+/* Link Styling */
 ul {
     display: flex;
     padding: 0;
@@ -26,4 +78,5 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 200;
 }
