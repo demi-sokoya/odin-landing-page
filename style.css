@@ -57,12 +57,11 @@ body {
 }
 
 .hero-image {
-    background-color: #6E747D;
-    color: #E5E7EB;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 50%;
+    max-width: 50%;
 
 }
 
