@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    /* Set the height to fill the vertical view window to have the footer pushed to the bottom*/
     height: 100vh;
 }
 
@@ -183,7 +184,7 @@ a {
     font-size: 18px;
     font-weight: 200;
 }
-
+/* Set the content flex to 1 so that the footer get pushed to the bottom */
 .content {
     flex: 1;
 }
